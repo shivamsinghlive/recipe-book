@@ -70,5 +70,12 @@ creating list of recipes
 outputting the list of recipes created in the previous step
 
 displaying recipe-details  
+
+working on shopping list component
+    need ingredients model class
+    use ingredient model class in shopping list component
+    > we create shared folder for ingredient model and other shared things
+    use the ingredient blueprint / model in shopping list component
+_________________________________________
     
     
