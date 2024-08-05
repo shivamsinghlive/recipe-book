@@ -53,3 +53,18 @@ components :
 Models : 
     Ingredient [class]
     recipe [class]
+
+
+    _____________________________
+
+    creating header component 
+        ng g c header/header 
+    
+    creating other components too
+    creating basic structure of our recipe book
+    > adding navigation bar in header 
+    > created basic header with few navigations 
+
+creating a recipe model
+    
+    
