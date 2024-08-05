@@ -66,5 +66,7 @@ Models :
     > created basic header with few navigations 
 
 creating a recipe model
-    
+creating list of recipes
+outputting the list of recipes created in the previous step
+
     
