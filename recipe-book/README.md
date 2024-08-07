@@ -81,5 +81,5 @@ working on shopping list edit component
     for now -> just create a form
 _________________________________________
     
-
+adding navigation with event binding and ngIf
     
