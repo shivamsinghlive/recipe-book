@@ -82,4 +82,6 @@ working on shopping list edit component
 _________________________________________
     
 adding navigation with event binding and ngIf
+
+passing recipe data with property binding
     
