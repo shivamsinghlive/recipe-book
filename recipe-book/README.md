@@ -76,6 +76,10 @@ working on shopping list component
     use ingredient model class in shopping list component
     > we create shared folder for ingredient model and other shared things
     use the ingredient blueprint / model in shopping list component
+
+working on shopping list edit component
+    for now -> just create a form
 _________________________________________
     
+
     
