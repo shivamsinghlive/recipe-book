@@ -92,3 +92,4 @@ implementing the logic to display recipe detail of the selected recipe only; els
 
 
 -> adding features to shopping list edit 
+-> building and using dropdown directive
