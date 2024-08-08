@@ -107,4 +107,7 @@ Managing RecipeService
         recipe service - manage our recipes [move the list to service and make it pvt.]
             create getters [return this.recipe.slice() -> this will return a copy of list and not the original array -> we don't want others to have access to our OG array :)]
             --> add the recipeService in providers inside decorators of parent component [child can have the same instance of service]
+
+Using service for cross-component communication
+    
             

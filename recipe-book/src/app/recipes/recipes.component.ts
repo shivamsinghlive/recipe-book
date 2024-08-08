@@ -10,13 +10,23 @@ import { RecipeService } from './recipe.service';
 })
 export class RecipesComponent {
 
-  recipeSelectedEarlier:Recipe=new Recipe('','','');
+  recipeSelectedEarlier:Recipe={} as Recipe;
   recipeDetailToBeDisplayed:boolean=false;
 
-
-  onRecipeSelectionEarlier(event :Recipe)
-  {
-    this.recipeSelectedEarlier=event;
-    this.recipeDetailToBeDisplayed=true;
+  constructor(private recipeService:RecipeService){
   }
+
+
+  ngOnInit()
+  {
+    this.recipeService.recipeSelected.subscribe(
+      (recipe : Recipe)=>{
+        console.log(recipe)
+        this.recipeSelectedEarlier=recipe;
+        this.recipeDetailToBeDisplayed=true;
+      }
+    )
+  }
+
+
 }
