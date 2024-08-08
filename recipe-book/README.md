@@ -89,3 +89,6 @@ passing recipe data with property binding
 _______________________________________________
 
 implementing the logic to display recipe detail of the selected recipe only; else display some default text like "PLEASE SELECT A RECIPE"
+
+
+-> adding features to shopping list edit 
