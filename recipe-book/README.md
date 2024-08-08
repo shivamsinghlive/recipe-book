@@ -93,3 +93,18 @@ implementing the logic to display recipe detail of the selected recipe only; els
 
 -> adding features to shopping list edit 
 -> building and using dropdown directive
+
+functionality for future purpose : closing dropdown on clicking anywhere on the document [not restricting to clicking on that particular element of DOM]
+
+_________________________________________________________________________
+
+setting up services -- further enhancements
+    we will need 2 services 
+        recipe service
+        shopping service
+Managing RecipeService 
+    what should it do for us ?
+        recipe service - manage our recipes [move the list to service and make it pvt.]
+            create getters [return this.recipe.slice() -> this will return a copy of list and not the original array -> we don't want others to have access to our OG array :)]
+            --> add the recipeService in providers inside decorators of parent component [child can have the same instance of service]
+            
