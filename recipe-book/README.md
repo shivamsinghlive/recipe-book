@@ -114,4 +114,7 @@ Using service for cross-component communication
 Adding ShoppingListService   
             we are moving ingredients logic to this service
             -we are providing this service in app.module.ts file because we want to access it from recipe and shopping-list [both the components]
+
+passing ingredient from recipes to shopping list
+
             
