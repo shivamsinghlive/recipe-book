@@ -109,5 +109,9 @@ Managing RecipeService
             --> add the recipeService in providers inside decorators of parent component [child can have the same instance of service]
 
 Using service for cross-component communication
-    
+    -focus on instance creation [providers : [serviceName] -> this will aid in creation of one instance ; same instance across all the child components]
+
+Adding ShoppingListService   
+            we are moving ingredients logic to this service
+            -we are providing this service in app.module.ts file because we want to access it from recipe and shopping-list [both the components]
             
