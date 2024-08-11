@@ -124,5 +124,8 @@ _________________________________________________________________
 setting up routes for recipes and shopping list
 
 adding navigation to the app
+    adding routerlink
+    also, marking active routes
+    
 
             
