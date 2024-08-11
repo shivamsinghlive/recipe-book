@@ -117,4 +117,10 @@ Adding ShoppingListService
 
 passing ingredient from recipes to shopping list
 
+_________________________________________________________________
+
+                        ADDING ROUTER FUNCTIONALITY
+
+setting up routes
+    
             

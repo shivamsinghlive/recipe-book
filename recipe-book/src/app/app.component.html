@@ -4,6 +4,13 @@
 </head>
 <app-header (featureSelected)="onNavigate($event)"></app-header>
 
-<app-recipes *ngIf="loadedFeature==='recipe'"></app-recipes>
+<!-- <app-recipes *ngIf="loadedFeature==='recipe'"></app-recipes>
 <hr>
-<app-shopping-list *ngIf="loadedFeature==='shopping-list'"></app-shopping-list>
+<app-shopping-list *ngIf="loadedFeature==='shopping-list'"></app-shopping-list> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
