@@ -126,6 +126,8 @@ setting up routes for recipes and shopping list
 adding navigation to the app
     adding routerlink
     also, marking active routes
-    
+
+fixing the page reload behaviour
+    ->remove href attribute,because this will reload the page after sending the request
 
             
