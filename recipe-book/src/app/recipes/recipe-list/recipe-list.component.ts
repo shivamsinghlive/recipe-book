@@ -9,17 +9,16 @@ import { RecipeService } from '../recipe.service';
 })
 export class RecipeListComponent {
 
- 
-  recipes: Recipe[]=[]
 
-  constructor(private recipeService:RecipeService){}
+  recipes: Recipe[] = []
 
-  ngOnInit()
-  {
-    this.recipes=this.recipeService.getRecipes();
+  constructor(private recipeService: RecipeService) { }
+
+  ngOnInit() {
+    this.recipes = this.recipeService.getRecipes();
   }
-  onRecipeSelection(recipe:Recipe){
-    
+  onRecipeSelection(recipe: Recipe) {
+
   }
 
 }
