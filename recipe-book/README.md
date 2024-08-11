@@ -121,6 +121,8 @@ _________________________________________________________________
 
                         ADDING ROUTER FUNCTIONALITY
 
-setting up routes
-    
+setting up routes for recipes and shopping list
+
+adding navigation to the app
+
             
